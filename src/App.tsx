@@ -1,16 +1,6 @@
-import { 
-  FaHeart, 
-  FaSpa, 
-  FaCanadianMapleLeaf, 
-  FaSnowflake, 
-  FaSun, 
-  FaStar 
-} from 'react-icons/fa';
-import { GiFlowerEmblem, GiFlowerPot, GiFlowerStar, GiRose } from 'react-icons/gi';
 import IconWithMessage from './components/IconWithMessage';
 import HeroText from './components/HeroText';
 import { generateRandomIcons } from './utils/iconGenerator';
-
 import { useMemo } from 'react';
 
 function App() {
