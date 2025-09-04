@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50 min-h-screen overflow-x-hidden;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-pink-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-pink-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-pink-400;
+}
